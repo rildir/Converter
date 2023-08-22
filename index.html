@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speech Converter</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="vh-100 bg-light">
+    <div
+      class="container d-flex justify-content-center align-items-center flex-column h-100"
+    >
+      <div class="card">
+        <div class="card-header">Text to speech converter</div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <div class="card-text">
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              cols="40"
+              rows="20"
+            ></textarea>
+          </div>
+          <button class="btn btn-primary mt-4">Convert</button>
+          <button id="clearButton" class="btn btn-danger mt-4">
+            Clear Text
+          </button>
+
+          <div class="mt-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
+              iusto, nostrum nam, vitae impedit aliquam tempore necessitatibus
+              molestiae adipisci quos placeat dolores dolorum explicabo at
+              asperiores odio maiores. Sint assumenda molestiae ea aut
+              consequuntur blanditiis, quae inventore magni quia in? Amet nobis
+              praesentium ad suscipit facere pariatur! Quaerat sapiente impedit
+              dicta.
+            </p>
+            <button id="copyButton" class="btn btn-outline-dark">
+              Copy Text
+            </button>
+            <p id="textCopied"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="custom.js"></script>
+  </body>
+</html>
